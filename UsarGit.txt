@@ -1,0 +1,46 @@
+
+1) Nos posicionamos en la ruta del proyecto
+
+2) ponemos:
+git status
+con esto nos aparecerá todas las carpetas y archivos en color rojo, indican que no están en ningun repositorio
+
+3)creamos un archivo .gitignore
+con esto nunca subiremos todo lo que hay en ese contenido, el Vstudio code lo deja en color diferente
+
+4) Le indicamos a git con este comando que todos los archivo de la ruta se cargaran a git
+
+git add .
+
+5) Nuevamente poner el comando git status y listará todos los archivos y carpetas menos los puestos en gitignore, 
+pero esta vez de color verde
+
+6) Hacemos commit con el siguiente comando, le tomaremos una foto a los contenidos y le pondremos una descripcion a esta foto 
+con el siguiente comando:
+
+git commit -m "Commit inicial"
+
+Hasta ahora todo son respaldos locales
+
+7) creamos un repositorio en el github. creamos uno y en la pagina de ese repositorio te mostrará 2 comandos
+
+8) ejecutamos la siguiente lista de comando, con esto le decimos a github que este es la url del repositorio en la nube 
+y que será por defecto para esa carpeta, la primera vez nos pedirá usuario y contraseña de github:
+
+git remote add origin https://github.com/edusan18/multiplicar-node.git
+
+9) con el siguiente código subimos a la master de la web el repositorio local
+git push -u origin master
+
+10) Luego de esto, puedes verificar en github que todo se subimos
+
+11) Después de un cambio, debes verificar con el git status, si hay un nuevo archivo, debemos agregarlo
+con 
+git add .
+
+12) Luego realizamos el commit
+
+git commit -m "Agregamos xxx"
+
+13) Luego subimos los cambios 
+git push
