@@ -44,3 +44,5 @@ git commit -m "Agregamos xxx"
 
 13) Luego subimos los cambios 
 git push
+
+Ya no es necesario agregar mas datos
