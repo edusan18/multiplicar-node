@@ -34,8 +34,7 @@ git push -u origin master
 
 10) Luego de esto, puedes verificar en github que todo se subimos
 
-11) Después de un cambio, debes verificar con el git status, si hay un nuevo archivo, debemos agregarlo
-con 
+11) Después de un cambio, debes verificar con el git status, si hay un nuevo archivo o un nuevo cambio, ejecutamos el comando 
 git add .
 
 12) Luego realizamos el commit
